@@ -1,3 +1,35 @@
 [gd_scene format=3 uid="uid://bqyfrny8jp03b"]
 
 [node name="Main" type="Node3D" unique_id=1618698500]
+
+[node name="Builder" type="Node3D" parent="." unique_id=1333227008]
+
+[node name="Selector" type="Node3D" parent="Builder" unique_id=175423435]
+
+[node name="Container" type="Node3D" parent="Builder/Selector" unique_id=745371524]
+
+[node name="Sprite3D" type="Sprite3D" parent="Builder/Selector" unique_id=1064983215]
+
+[node name="View" type="Node3D" parent="." unique_id=1188432182]
+
+[node name="Camera3D" type="Camera3D" parent="View" unique_id=1492994527]
+
+[node name="GridMap" type="GridMap" parent="." unique_id=1702773301]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=893571937]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1944574503]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CashIcon" type="TextureRect" parent="CanvasLayer/Control" unique_id=1253604198]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Cash" type="Label" parent="CanvasLayer/Control" unique_id=1385031029]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0

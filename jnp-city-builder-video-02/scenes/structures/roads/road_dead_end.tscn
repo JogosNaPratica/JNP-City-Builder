@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cjyvchs5qv5qw"]
+
+[ext_resource type="PackedScene" uid="uid://dmwe2vm6mc8hw" path="res://assets/models/roads/cbgt_free_v0.4.0._road_dead_end_v1.0.0.glb" id="1_7xfkf"]
+
+[node name="RoadDeadEnd" type="Node3D" unique_id=665346856]
+
+[node name="CBGT Free v0_4_0 Road Dead End v1_0_0" parent="." unique_id=1394985544 instance=ExtResource("1_7xfkf")]

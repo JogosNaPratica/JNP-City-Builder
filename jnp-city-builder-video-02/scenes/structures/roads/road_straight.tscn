@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bjfdyskf0kn2h"]
+
+[ext_resource type="PackedScene" uid="uid://b8qw2i7ne0orr" path="res://assets/models/roads/cbgt_free_v0.4.0._road_straight_v1.0.0.glb" id="1_se62q"]
+
+[node name="RoadStraight" type="Node3D" unique_id=665346856]
+
+[node name="CBGT Free v0_4_0 Road Straight v1_0_0" parent="." unique_id=718378409 instance=ExtResource("1_se62q")]

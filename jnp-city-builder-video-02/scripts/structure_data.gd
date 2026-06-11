@@ -5,7 +5,7 @@
 
 class_name StructureData extends Resource
 
-enum type {ROAD, BUILDING}
+enum type {ROAD, GROUND, BUILDING,}
 
 @export var structure_id: int  # O ID na sua lista de 'structures'
 @export var name: String = "Estrutura"

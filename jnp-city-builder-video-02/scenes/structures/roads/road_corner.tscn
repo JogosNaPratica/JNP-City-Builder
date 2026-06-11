@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://equa2k2ofma4"]
+
+[ext_resource type="PackedScene" uid="uid://b3is41scvbcud" path="res://assets/models/roads/cbgt_free_v0.4.0._road_corner_v1.0.0.glb" id="1_4vnoy"]
+
+[node name="RoadCorner" type="Node3D" unique_id=665346856]
+
+[node name="CBGT Free v0_4_0 Road Corner v1_0_0" parent="." unique_id=234871851 instance=ExtResource("1_4vnoy")]

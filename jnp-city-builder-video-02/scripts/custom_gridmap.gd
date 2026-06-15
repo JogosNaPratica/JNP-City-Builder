@@ -36,7 +36,7 @@ func set_composite_structure(pivot_pos: Vector3i, packed_scene: PackedScene, siz
 			return false
 			
 	# CRIAÇÃO DO PIVÔ AUTOMÁTICO:
-	# Criamos um nó vazio para ser o centro estável da estrutura no mundo
+	# Cria um nó vazio para ser o centro estável da estrutura no mundo
 	var pivot_node = Node3D.new()
 	# ... código de instância ...
 	pivot_node.set_meta("structure_id", structure_id)

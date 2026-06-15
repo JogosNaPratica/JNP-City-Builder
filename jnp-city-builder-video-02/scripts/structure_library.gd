@@ -9,9 +9,6 @@ class_name StructureLibrary extends Resource
 # Chave: int, Valor: StructureData
 @export var data: Dictionary[int, StructureData] = {} 
 
-func get_structure(id: int) -> StructureData:
-	return data.get(id) as StructureData
-
 
 func get_data(id: int) -> StructureData:
 	return data.get(id) as StructureData

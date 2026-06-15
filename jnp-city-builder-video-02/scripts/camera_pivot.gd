@@ -3,7 +3,7 @@ class_name CameraPivot extends Node3D
 var camera_position:Vector3
 var camera_rotation:Vector3
 
-@onready var camera = $Camera
+@onready var camera: Camera3D = %Camera3D
 
 func _ready():
 	

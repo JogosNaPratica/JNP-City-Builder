@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="StructureData" format=3 uid="uid://2dyxlc42ksjj"]
+
+[ext_resource type="PackedScene" uid="uid://dl1og426luxn5" path="res://scenes/structures/grounds/ground_grass.tscn" id="1_l67ic"]
+[ext_resource type="Script" uid="uid://dklwhgf7dap63" path="res://scripts/structure_data.gd" id="2_u5nga"]
+
+[resource]
+script = ExtResource("2_u5nga")
+structure_id = 6
+name = "GroundGrass"
+model_scene = ExtResource("1_l67ic")
+structure_type = 1
+metadata/_custom_type_script = "uid://dklwhgf7dap63"

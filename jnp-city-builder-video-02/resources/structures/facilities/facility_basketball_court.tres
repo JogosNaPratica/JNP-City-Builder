@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="StructureData" format=3 uid="uid://mrnhsre75vdh"]
+
+[ext_resource type="PackedScene" uid="uid://c52mclq6r0lks" path="res://scenes/structures/facilities/facility_basketball_court.tscn" id="1_dgt03"]
+[ext_resource type="Script" uid="uid://dklwhgf7dap63" path="res://scripts/structure_data.gd" id="2_vkbh6"]
+
+[resource]
+script = ExtResource("2_vkbh6")
+structure_id = 14
+name = "FacilityBasketballCourt"
+model_scene = ExtResource("1_dgt03")
+structure_type = 3
+size = Vector2i(2, 1)
+price = 1500
+metadata/_custom_type_script = "uid://dklwhgf7dap63"

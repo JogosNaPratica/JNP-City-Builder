@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dal2oagyucfjl"]
+
+[ext_resource type="PackedScene" uid="uid://bp0e5gvhnv8p5" path="res://assets/models/facilities/cbgt_free_v0.4.0_facility_half_tennis_court_v1.0.2.glb" id="1_3ss3w"]
+
+[node name="FacilityTennisCourt" type="Node3D" unique_id=1604843351]
+
+[node name="CBGT Free v0_4_0 Facility Half Tennis Court v1_0_2" parent="." unique_id=46999130 instance=ExtResource("1_3ss3w")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0)
+
+[node name="CBGT Free v0_4_0 Facility Half Tennis Court v1_0_3" parent="." unique_id=1184770594 instance=ExtResource("1_3ss3w")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -5, 0, 0)

@@ -29,7 +29,7 @@
 
 [resource]
 script = ExtResource("2_onjxd")
-data = Dictionary[int, ExtResource("1_8h8j5")]({
+info = Dictionary[int, ExtResource("1_8h8j5")]({
 0: ExtResource("2_tuqji"),
 1: ExtResource("3_rfrj4"),
 2: ExtResource("4_c3man"),

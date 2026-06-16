@@ -7,8 +7,8 @@ class_name StructureLibrary extends Resource
 
 # Aqui o Dicionário é tipado! 
 # Chave: int, Valor: StructureData
-@export var data: Dictionary[int, StructureData] = {} 
+@export var info: Dictionary[int, StructureData] = {} 
 
 
-func get_data(id: int) -> StructureData:
-	return data.get(id) as StructureData
+func get_info(id: int) -> StructureData:
+	return info.get(id) as StructureData

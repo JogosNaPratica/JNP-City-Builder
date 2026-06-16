@@ -160,7 +160,7 @@ func _get_orthogonal_index() -> int:
 
 func _load_structures_from_library(type = null) -> Array:
 	structures.clear()
-	return structure_library.data.keys()
+	return structure_library.info.keys()
 
 
 ## Converte coordenadas de tela em coordenadas tridimensionais lógicas do Grid
@@ -193,7 +193,7 @@ func _project_mouse_to_grid() -> void:
 
 func action_build(_event: InputEvent) -> void:
 	if structures.size() == 0 or not custom_gridmap: return
-	var current_build = structure_library.get_data(current_structure_id)
+	var current_build = structure_library.get_info(current_structure_id)
 	
 	# Pega o mapeamento da célula base sob o mouse
 	var current_cell = custom_gridmap.local_to_map(grid_target_position)
@@ -260,7 +260,7 @@ func action_load():
 			
 		# 2. Reconstrói cada estrutura
 		for data in map.structures:
-			var build_info = structure_library.get_data(data.structure_id)
+			var build_info = structure_library.get_info(data.structure_id)
 			
 			# CONVERSÃO AQUI: 
 			# data.position é Vector2i, transformamos em Vector3i para o GridMap
@@ -304,7 +304,7 @@ func update_cash() -> void:
 ## Redimensiona e alinha o Sprite3D e o modelo fantasma
 func update_preview() -> void:
 	if structures.size() == 0 or not selector_sprite or not custom_gridmap: return
-	var current_build = structure_library.get_data(current_structure_id)
+	var current_build = structure_library.get_info(current_structure_id)
 	
 	# 1. Reconfigura o Sprite3D da grade do chão (Sempre centralizado em ZERO)
 	_adjust_selector_visual_size (current_build.size)

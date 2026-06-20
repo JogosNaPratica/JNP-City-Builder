@@ -1,0 +1,58 @@
+[gd_resource type="Resource" script_class="StructureLibrary" format=3 uid="uid://duhgvqo8px7jb"]
+
+[ext_resource type="Script" uid="uid://dklwhgf7dap63" path="res://scripts/structure_data.gd" id="1_8h8j5"]
+[ext_resource type="Script" uid="uid://b4x3rsqlh18ft" path="res://scripts/structure_library.gd" id="2_onjxd"]
+[ext_resource type="Resource" uid="uid://ci4jgx5xcfykg" path="res://resources/structures/roads/road_corner.tres" id="2_tuqji"]
+[ext_resource type="Resource" uid="uid://dkej708b86jsq" path="res://resources/structures/roads/road_straight.tres" id="2_v1cvn"]
+[ext_resource type="Resource" uid="uid://gvup6xnc5neq" path="res://resources/structures/roads/road_dead_end.tres" id="3_rfrj4"]
+[ext_resource type="Resource" uid="uid://clgh25270v3wh" path="res://resources/structures/roads/road_four_way.tres" id="4_c3man"]
+[ext_resource type="Resource" uid="uid://otbme0cwdqxo" path="res://resources/structures/roads/road_three_way.tres" id="6_w4klo"]
+[ext_resource type="Resource" uid="uid://biff73ljxfoxk" path="res://resources/structures/grounds/ground_clay.tres" id="7_rfrj4"]
+[ext_resource type="Resource" uid="uid://2dyxlc42ksjj" path="res://resources/structures/grounds/ground_grass.tres" id="8_mv868"]
+[ext_resource type="Resource" uid="uid://cr32mrmhcbr3b" path="res://resources/structures/grounds/ground_grass_trees.tres" id="9_fcouc"]
+[ext_resource type="Resource" uid="uid://bkd6e4drlsifg" path="res://resources/structures/grounds/ground_pavement.tres" id="10_jxip2"]
+[ext_resource type="Resource" uid="uid://bk3f1h6ny6tqj" path="res://resources/structures/grounds/ground_pavement_mixed_01.tres" id="11_qacfb"]
+[ext_resource type="Resource" uid="uid://cw0smjem4pxw2" path="res://resources/structures/grounds/ground_pavement_mixed_02.tres" id="12_bc0b4"]
+[ext_resource type="Resource" uid="uid://cikbt30ohylhm" path="res://resources/structures/grounds/ground_pavement_mixed_03.tres" id="13_i8oox"]
+[ext_resource type="Resource" uid="uid://b70hkk3nf25m0" path="res://resources/structures/buildings/building_house_01.tres" id="14_fcouc"]
+[ext_resource type="Resource" uid="uid://2lbkv3twhhbl" path="res://resources/structures/facilities/facility_tennis_court.tres" id="15_fj57s"]
+[ext_resource type="Resource" uid="uid://bm17pyr6q3soc" path="res://resources/structures/facilities/facility_football_court.tres" id="15_jxip2"]
+[ext_resource type="Resource" uid="uid://mrnhsre75vdh" path="res://resources/structures/facilities/facility_basketball_court.tres" id="16_u37ys"]
+[ext_resource type="Resource" uid="uid://c5badbir7hpdj" path="res://resources/structures/facilities/facility_grand_stand.tres" id="17_gouqu"]
+[ext_resource type="Resource" uid="uid://bmyu10oreb1qo" path="res://resources/structures/buildings/building_house_02.tres" id="19_3j4ba"]
+[ext_resource type="Resource" uid="uid://cjh1xwx8upesl" path="res://resources/structures/buildings/building_house_03.tres" id="20_rc86b"]
+[ext_resource type="Resource" uid="uid://b0hl7sq0rg401" path="res://resources/structures/buildings/building_house_04.tres" id="21_jbqhe"]
+[ext_resource type="Resource" uid="uid://dw38emaya37gj" path="res://resources/structures/buildings/building_house_05.tres" id="22_3blg8"]
+[ext_resource type="Resource" uid="uid://wnxce6xg8wxl" path="res://resources/structures/buildings/building_house_06.tres" id="23_586fj"]
+[ext_resource type="Resource" uid="uid://dhm3opdkuvkm" path="res://resources/structures/buildings/building_house_07a.tres" id="24_2u1ib"]
+[ext_resource type="Resource" uid="uid://d64jag6w7qgc" path="res://resources/structures/buildings/building_house_09a.tres" id="25_oakk5"]
+
+[resource]
+script = ExtResource("2_onjxd")
+info = Dictionary[int, ExtResource("1_8h8j5")]({
+0: ExtResource("2_tuqji"),
+1: ExtResource("3_rfrj4"),
+2: ExtResource("4_c3man"),
+3: ExtResource("2_v1cvn"),
+4: ExtResource("6_w4klo"),
+5: ExtResource("7_rfrj4"),
+6: ExtResource("8_mv868"),
+7: ExtResource("9_fcouc"),
+8: ExtResource("10_jxip2"),
+9: ExtResource("11_qacfb"),
+10: ExtResource("12_bc0b4"),
+11: ExtResource("13_i8oox"),
+12: ExtResource("15_jxip2"),
+13: ExtResource("15_fj57s"),
+14: ExtResource("16_u37ys"),
+15: ExtResource("17_gouqu"),
+16: ExtResource("14_fcouc"),
+17: ExtResource("19_3j4ba"),
+18: ExtResource("20_rc86b"),
+19: ExtResource("21_jbqhe"),
+20: ExtResource("22_3blg8"),
+21: ExtResource("23_586fj"),
+22: ExtResource("24_2u1ib"),
+23: ExtResource("25_oakk5")
+})
+metadata/_custom_type_script = "uid://b4x3rsqlh18ft"

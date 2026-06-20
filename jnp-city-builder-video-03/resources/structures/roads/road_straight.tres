@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="StructureData" format=3 uid="uid://dkej708b86jsq"]
+
+[ext_resource type="PackedScene" uid="uid://bjfdyskf0kn2h" path="res://scenes/structures/roads/road_straight.tscn" id="1_ldpe1"]
+[ext_resource type="Script" uid="uid://dklwhgf7dap63" path="res://scripts/structure_data.gd" id="1_s65bq"]
+
+[resource]
+script = ExtResource("1_s65bq")
+structure_id = 3
+name = "RoadStraight"
+model_scene = ExtResource("1_ldpe1")
+metadata/_custom_type_script = "uid://dklwhgf7dap63"

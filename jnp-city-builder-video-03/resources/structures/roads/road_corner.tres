@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="StructureData" format=3 uid="uid://ci4jgx5xcfykg"]
+
+[ext_resource type="PackedScene" uid="uid://equa2k2ofma4" path="res://scenes/structures/roads/road_corner.tscn" id="1_xex4u"]
+[ext_resource type="Script" uid="uid://dklwhgf7dap63" path="res://scripts/structure_data.gd" id="2_kwdto"]
+
+[resource]
+script = ExtResource("2_kwdto")
+name = "RoadCorner"
+model_scene = ExtResource("1_xex4u")
+metadata/_custom_type_script = "uid://dklwhgf7dap63"

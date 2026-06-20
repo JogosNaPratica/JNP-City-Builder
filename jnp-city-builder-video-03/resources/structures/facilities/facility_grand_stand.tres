@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="StructureData" format=3 uid="uid://c5badbir7hpdj"]
+
+[ext_resource type="PackedScene" uid="uid://dk3aqqkr1mo8m" path="res://scenes/structures/facilities/facility_grand_stand.tscn" id="1_oljpn"]
+[ext_resource type="Script" uid="uid://dklwhgf7dap63" path="res://scripts/structure_data.gd" id="2_onvkq"]
+
+[resource]
+script = ExtResource("2_onvkq")
+structure_id = 15
+name = "FacilityBasketballCourt"
+model_scene = ExtResource("1_oljpn")
+structure_type = 3
+price = 1500
+metadata/_custom_type_script = "uid://dklwhgf7dap63"

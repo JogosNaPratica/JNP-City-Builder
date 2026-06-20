@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="StructureData" format=3 uid="uid://clgh25270v3wh"]
+
+[ext_resource type="PackedScene" uid="uid://be6nb13iolgy1" path="res://scenes/structures/roads/road_four_way.tscn" id="1_qd5dq"]
+[ext_resource type="Script" uid="uid://dklwhgf7dap63" path="res://scripts/structure_data.gd" id="2_rmjdc"]
+
+[resource]
+script = ExtResource("2_rmjdc")
+structure_id = 2
+name = "RoadFourWay"
+model_scene = ExtResource("1_qd5dq")
+metadata/_custom_type_script = "uid://dklwhgf7dap63"

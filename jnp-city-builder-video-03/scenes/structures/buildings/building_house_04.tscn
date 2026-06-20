@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dnx3st7sfvmw"]
+
+[ext_resource type="PackedScene" uid="uid://6pya4cu3agy1" path="res://assets/models/buildings/cbgt_free_v0.4.0_house_building_04_v1.0.0.glb" id="1_6anom"]
+
+[node name="BuildingHouse04" type="Node3D" unique_id=1950931879]
+
+[node name="CBGT Free v0_4_0 House Building 04 v1_0_0" parent="." unique_id=341057676 instance=ExtResource("1_6anom")]

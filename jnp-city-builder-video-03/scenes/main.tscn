@@ -1,0 +1,70 @@
+[gd_scene format=3 uid="uid://bqyfrny8jp03b"]
+
+[ext_resource type="Script" uid="uid://ycxxc1qrrnqt" path="res://scripts/builder.gd" id="1_o5qli"]
+[ext_resource type="Script" uid="uid://ckpqvpa5w88rc" path="res://scripts/custom_gridmap.gd" id="2_0wfyh"]
+[ext_resource type="Script" uid="uid://di4sqd3bx14v8" path="res://scripts/camera_pivot.gd" id="2_jyhfs"]
+[ext_resource type="Texture2D" uid="uid://bafu48gjkpdbd" path="res://assets/textures/selector.png" id="2_tbgi4"]
+[ext_resource type="Resource" uid="uid://duhgvqo8px7jb" path="res://resources/structure_library.tres" id="2_tefeu"]
+[ext_resource type="Texture2D" uid="uid://brohwhdlkjatj" path="res://assets/textures/money-01-icon-128x128px.png" id="4_tbgi4"]
+
+[node name="Main" type="Node3D" unique_id=1618698500]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=183764585]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Builder" type="Node3D" parent="." unique_id=1333227008 node_paths=PackedStringArray("custom_gridmap", "selector", "selector_sprite", "preview_container", "cash_display", "camera_3d")]
+unique_name_in_owner = true
+script = ExtResource("1_o5qli")
+custom_gridmap = NodePath("GridMap")
+selector = NodePath("Selector")
+selector_sprite = NodePath("Selector/Sprite3D")
+preview_container = NodePath("Selector/Container")
+cash_display = NodePath("../CanvasLayer/Control/Cash")
+camera_3d = NodePath("../CameraPivot/Camera3D")
+structure_library = ExtResource("2_tefeu")
+
+[node name="Selector" type="Node3D" parent="Builder" unique_id=175423435]
+
+[node name="Container" type="Node3D" parent="Builder/Selector" unique_id=745371524]
+
+[node name="Sprite3D" type="Sprite3D" parent="Builder/Selector" unique_id=1064983215]
+transform = Transform3D(1, 0, 0, 0, -4.371139e-08, -1, 0, 1, -4.371139e-08, 0, 0, 0)
+texture = ExtResource("2_tbgi4")
+
+[node name="GridMap" type="GridMap" parent="Builder" unique_id=1702773301]
+unique_name_in_owner = true
+script = ExtResource("2_0wfyh")
+
+[node name="CameraPivot" type="Node3D" parent="." unique_id=1188432182]
+transform = Transform3D(0.70710677, -0.4055798, 0.579228, 0, 0.81915206, 0.57357645, -0.70710677, -0.4055798, 0.579228, 0, 0, 0)
+script = ExtResource("2_jyhfs")
+
+[node name="Camera3D" type="Camera3D" parent="CameraPivot" unique_id=1492994527]
+unique_name_in_owner = true
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 130)
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=893571937]
+
+[node name="Control" type="Control" parent="CanvasLayer" unique_id=1944574503]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="CashIcon" type="TextureRect" parent="CanvasLayer/Control" unique_id=1253604198]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 2.0
+offset_right = 152.0
+offset_bottom = 130.0
+scale = Vector2(0.25, 0.25)
+texture = ExtResource("4_tbgi4")
+
+[node name="Cash" type="Label" parent="CanvasLayer/Control" unique_id=1385031029]
+layout_mode = 0
+offset_left = 68.0
+offset_top = 6.0
+offset_right = 161.0
+offset_bottom = 29.0
+text = "R$1.000.000"

@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://csaksbagf4i8t"]
+
+[ext_resource type="PackedScene" uid="uid://dhbdleg2xt7jt" path="res://assets/models/buildings/cbgt_free_v0.4.0_house_building_07a_v1.0.0.glb" id="1_khmbt"]
+
+[node name="BuildingHouse07A" type="Node3D" unique_id=1950931879]
+
+[node name="CBGT Free v0_4_0 House Building 07A v1_0_0" parent="." unique_id=772469789 instance=ExtResource("1_khmbt")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 5)

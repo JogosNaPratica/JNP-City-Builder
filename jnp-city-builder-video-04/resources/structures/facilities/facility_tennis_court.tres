@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="StructureData" format=3 uid="uid://2lbkv3twhhbl"]
+
+[ext_resource type="PackedScene" uid="uid://dal2oagyucfjl" path="res://scenes/structures/facilities/facility_tennis_court.tscn" id="1_kkbjs"]
+[ext_resource type="Script" uid="uid://dklwhgf7dap63" path="res://scripts/structure_data.gd" id="2_brhwl"]
+
+[resource]
+script = ExtResource("2_brhwl")
+structure_id = 13
+name = "FacilityTennisCourt"
+model_scene = ExtResource("1_kkbjs")
+structure_type = 3
+size = Vector2i(2, 1)
+price = 1500
+metadata/_custom_type_script = "uid://dklwhgf7dap63"

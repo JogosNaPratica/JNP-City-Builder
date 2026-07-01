@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dbs11vysii5vk"]
+
+[ext_resource type="PackedScene" uid="uid://ceqeef5qqcw1c" path="res://assets/models/grounds/cbgt_free_v0.4.0_ground_pavement_mixed_02_v1.1.0.glb" id="1_d0qly"]
+
+[node name="GroundPavementMixed02" type="Node3D" unique_id=2025440141]
+
+[node name="CBGT Free v0_4_0 Ground Pavement Mixed 2 v1_1_0" parent="." unique_id=808290748 instance=ExtResource("1_d0qly")]

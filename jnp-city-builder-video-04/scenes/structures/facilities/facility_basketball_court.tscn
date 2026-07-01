@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://c52mclq6r0lks"]
+
+[ext_resource type="PackedScene" uid="uid://d3jrg21c0yvv3" path="res://assets/models/facilities/cbgt_free_v0.4.0_facility_half_basketball_court_v1.0.1.glb" id="1_qont3"]
+
+[node name="FacilityBasketballCourt" type="Node3D" unique_id=1604843351]
+
+[node name="CBGT Free v0_4_0 Facility Half Basket Court v1_0_1" parent="." unique_id=2079317744 instance=ExtResource("1_qont3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0)
+
+[node name="CBGT Free v0_4_0 Facility Half Basket Court v1_0_2" parent="." unique_id=1887199135 instance=ExtResource("1_qont3")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -5, 0, 0)

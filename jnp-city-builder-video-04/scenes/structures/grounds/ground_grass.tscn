@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dl1og426luxn5"]
+
+[ext_resource type="PackedScene" uid="uid://bwel8p2orfhl0" path="res://assets/models/grounds/cbgt_free_v0.4.0_grass_v1.0.0.glb" id="1_a0emp"]
+
+[node name="GroundGrass" type="Node3D" unique_id=2025440141]
+
+[node name="CBGT Free v0_4_0 Grass v1_0_0" parent="." unique_id=1918453559 instance=ExtResource("1_a0emp")]

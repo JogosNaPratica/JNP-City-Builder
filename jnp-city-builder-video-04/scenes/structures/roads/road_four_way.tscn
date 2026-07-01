@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://be6nb13iolgy1"]
+
+[ext_resource type="PackedScene" uid="uid://cdg5pylgm0uvv" path="res://assets/models/roads/cbgt_free_v0.4.0._road_four_way_v1.0.0.glb" id="1_xst3w"]
+
+[node name="RoadFourWay" type="Node3D" unique_id=665346856]
+
+[node name="CBGT Free v0_4_0 Road Four Way Crosspassing v1_0_0" parent="." unique_id=1607117804 instance=ExtResource("1_xst3w")]

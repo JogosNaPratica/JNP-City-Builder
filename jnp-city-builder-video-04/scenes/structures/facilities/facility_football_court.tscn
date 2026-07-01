@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://2j54xxif22bv"]
+
+[ext_resource type="PackedScene" uid="uid://daxsj3hans15t" path="res://assets/models/facilities/cbgt_free_v0.4.0_facility_half_football_court_v1.0.0.glb" id="1_ecj2t"]
+
+[node name="FacilityFootballCourt" type="Node3D" unique_id=1604843351]
+
+[node name="CBGT Free v0_4_0 Facility Half Football Court v1_0_0" parent="." unique_id=1157594761 instance=ExtResource("1_ecj2t")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5, 0, 0)
+
+[node name="CBGT Free v0_4_0 Facility Half Football Court v1_0_1" parent="." unique_id=1922915811 instance=ExtResource("1_ecj2t")]
+transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, -5, 0, 0)

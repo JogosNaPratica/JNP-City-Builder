@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://dk3aqqkr1mo8m"]
+
+[ext_resource type="PackedScene" uid="uid://dov5dlpk1nsgr" path="res://assets/models/facilities/cbgt_free_v0.4.0_facility_grand_stand_v1.0.0.glb" id="1_sstm4"]
+
+[node name="FacilityGrandStand" type="Node3D" unique_id=1604843351]
+
+[node name="CBGT Free v0_4_0 Facility Grand Stand v1_0_0" parent="." unique_id=470829291 instance=ExtResource("1_sstm4")]

@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://1ctvaaffl5h3"]
+
+[ext_resource type="Texture2D" uid="uid://tgj27rykn07o" path="res://assets/textures/cbgt_v0.4.0_base_texture_v1.0.0.png" id="1_k5nkq"]
+
+[resource]
+resource_name = "cbgt_free_v0.4.0_universal_material_v1.0.0"
+cull_mode = 2
+albedo_texture = ExtResource("1_k5nkq")
+roughness = 0.8

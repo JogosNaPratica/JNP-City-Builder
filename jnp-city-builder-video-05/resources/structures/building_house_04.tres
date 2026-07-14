@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="StructureData" format=3 uid="uid://b0hl7sq0rg401"]
+
+[ext_resource type="PackedScene" uid="uid://dl5xwr3u2us77" path="res://scenes/structures/buildings/building_house_05.tscn" id="1_xm31u"]
+[ext_resource type="Script" uid="uid://dklwhgf7dap63" path="res://scripts/structure_data.gd" id="2_130no"]
+
+[resource]
+script = ExtResource("2_130no")
+structure_id = 0
+name = "BuildingHouse05"
+model_scene = ExtResource("1_xm31u")
+structure_type = 2
+price = 2000
+metadata/_custom_type_script = "uid://dklwhgf7dap63"

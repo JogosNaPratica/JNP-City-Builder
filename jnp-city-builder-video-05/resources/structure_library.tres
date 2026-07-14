@@ -1,0 +1,51 @@
+[gd_resource type="Resource" script_class="StructureLibrary" format=3 uid="uid://duhgvqo8px7jb"]
+
+[ext_resource type="Script" uid="uid://dklwhgf7dap63" path="res://scripts/structure_data.gd" id="1_8h8j5"]
+[ext_resource type="Resource" uid="uid://clgh25270v3wh" path="res://resources/structures/road_four_way.tres" id="1_c3man"]
+[ext_resource type="Script" uid="uid://b4x3rsqlh18ft" path="res://scripts/structure_library.gd" id="2_onjxd"]
+[ext_resource type="Resource" uid="uid://dkej708b86jsq" path="res://resources/structures/road_straight.tres" id="2_w4klo"]
+[ext_resource type="Resource" uid="uid://otbme0cwdqxo" path="res://resources/structures/road_three_way.tres" id="3_4lebu"]
+[ext_resource type="Resource" uid="uid://ci4jgx5xcfykg" path="res://resources/structures/road_corner.tres" id="4_gpxtb"]
+[ext_resource type="Resource" uid="uid://gvup6xnc5neq" path="res://resources/structures/road_dead_end.tres" id="5_watqc"]
+[ext_resource type="Resource" uid="uid://biff73ljxfoxk" path="res://resources/structures/ground_clay.tres" id="6_mv868"]
+[ext_resource type="Resource" uid="uid://b70hkk3nf25m0" path="res://resources/structures/building_house_01.tres" id="7_fcouc"]
+[ext_resource type="Resource" uid="uid://2dyxlc42ksjj" path="res://resources/structures/ground_grass.tres" id="7_gpxtb"]
+[ext_resource type="Resource" uid="uid://cr32mrmhcbr3b" path="res://resources/structures/ground_grass_trees.tres" id="7_i8oox"]
+[ext_resource type="Resource" uid="uid://bmyu10oreb1qo" path="res://resources/structures/building_house_02.tres" id="7_w4klo"]
+[ext_resource type="Resource" uid="uid://bkd6e4drlsifg" path="res://resources/structures/ground_pavement.tres" id="8_7d3jq"]
+[ext_resource type="Resource" uid="uid://b0hl7sq0rg401" path="res://resources/structures/building_house_04.tres" id="10_5uqex"]
+[ext_resource type="Resource" uid="uid://cjh1xwx8upesl" path="res://resources/structures/building_house_03.tres" id="10_watqc"]
+[ext_resource type="Resource" uid="uid://dhm3opdkuvkm" path="res://resources/structures/building_house_07a.tres" id="11_mp7dh"]
+[ext_resource type="Resource" uid="uid://d64jag6w7qgc" path="res://resources/structures/building_house_09a.tres" id="14_qwje5"]
+[ext_resource type="Resource" uid="uid://wnxce6xg8wxl" path="res://resources/structures/building_house_06.tres" id="16_gids4"]
+[ext_resource type="Resource" uid="uid://dw38emaya37gj" path="res://resources/structures/building_house_05.tres" id="17_oykvb"]
+
+[resource]
+script = ExtResource("2_onjxd")
+info = Dictionary[int, ExtResource("1_8h8j5")]({
+0: ExtResource("10_5uqex"),
+1: ExtResource("6_mv868"),
+2: ExtResource("11_mp7dh"),
+3: ExtResource("7_w4klo"),
+4: ExtResource("1_c3man"),
+5: ExtResource("7_fcouc"),
+6: ExtResource("14_qwje5"),
+7: ExtResource("2_w4klo"),
+8: ExtResource("10_watqc"),
+9: ExtResource("7_i8oox"),
+10: ExtResource("8_7d3jq"),
+11: ExtResource("3_4lebu"),
+12: ExtResource("7_gpxtb"),
+13: ExtResource("4_gpxtb"),
+14: ExtResource("16_gids4"),
+15: ExtResource("17_oykvb"),
+16: ExtResource("5_watqc")
+})
+categorized_info = {
+0: [ExtResource("1_c3man"), ExtResource("2_w4klo"), ExtResource("3_4lebu"), ExtResource("4_gpxtb"), ExtResource("5_watqc")],
+1: [ExtResource("6_mv868"), ExtResource("7_i8oox"), ExtResource("8_7d3jq"), ExtResource("7_gpxtb")],
+2: [ExtResource("10_5uqex"), ExtResource("11_mp7dh"), ExtResource("7_w4klo"), ExtResource("7_fcouc"), ExtResource("14_qwje5"), ExtResource("10_watqc"), ExtResource("16_gids4"), ExtResource("17_oykvb")],
+3: [],
+4: []
+}
+metadata/_custom_type_script = "uid://b4x3rsqlh18ft"

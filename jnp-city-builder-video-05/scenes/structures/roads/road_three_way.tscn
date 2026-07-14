@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://caf321vcfkvj2"]
+
+[ext_resource type="PackedScene" uid="uid://n22pki1l3hs6" path="res://assets/models/roads/cbgt_free_v0.4.0._road_three_way_v1.0.0.glb" id="1_1j55e"]
+
+[node name="RoadThreeWay" type="Node3D" unique_id=665346856]
+
+[node name="CBGT Free v0_4_0 Road Three Way v1_0_0" parent="." unique_id=2096439883 instance=ExtResource("1_1j55e")]
